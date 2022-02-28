@@ -137,7 +137,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.5/contracts/token/ERC20/IERC20.sol": {
+		"node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
 			"keccak256": "0xbbc8ac883ac3c0078ce5ad3e288fbb3ffcc8a30c3a98c0fda0114d64fc44fca2",
 			"license": "MIT",
 			"urls": [
@@ -145,7 +145,7 @@
 				"dweb:/ipfs/QmR76hqtAcRqoFj33tmNjcWTLrgNsAaakYwnKZ8zoJtKei"
 			]
 		},
-		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.5/contracts/utils/math/SafeMath.sol": {
+		"node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
 			"keccak256": "0xa2f576be637946f767aa56601c26d717f48a0aff44f82e46f13807eea1009a21",
 			"license": "MIT",
 			"urls": [
@@ -154,11 +154,11 @@
 			]
 		},
 		"src/dex.sol": {
-			"keccak256": "0xbe1a12feab08894ba58cb0a6badb6586d8207898d119fefb4445491ff984d9a4",
+			"keccak256": "0xa51927b5cddf3d701dbb50dba74a15dcfbddfa6ea4728e4657c1c4236e128f63",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c7ab39c6d81d27a18e3e4531912362e00ce3d20681554aea01375c0c6afecf7",
-				"dweb:/ipfs/QmQW46QCRLxiMEE7iMthx2bMCdDqowf2beQ2Kdq1F1UfHr"
+				"bzz-raw://14e06531e2a7dd6a0dbba1d755161a02e8894335a4b890d0070c6b9c3e93be4b",
+				"dweb:/ipfs/QmSvy5cyqTubSWGjdK53m82i5nV1kBgfmAQugTdGzyAo5T"
 			]
 		}
 	},

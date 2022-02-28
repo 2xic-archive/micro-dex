@@ -10,6 +10,14 @@ I used Remix as IDE, it had some flaws, but nice for someone trying to get into 
 **Code should only be used for educational reasons, and not be put in production, or deployed on the blockchain.**
 
 ### Todo
-- [ ] Try to get tests working, and write tests for the contract
+- [x] Try to get tests working
+    - Remix-tests is "wack", it does not find OpenZeppelin without direct path and has unhelpful error messages. Try something else like  
+        - [ ] trufflesuite
+        - [ ] hardhat
+    - [ ] write tests for the contract
+- [ ] Fuzz the contract
+    - [ ] https://github.com/crytic/echidna
+- [ ] Run automated static analysis
+    - [x] https://github.com/crytic/slither
 - [ ] Complete the implementation.
 
