@@ -1,7 +1,7 @@
 # micro-dex
 _Speedrunning_ solidity.
 
-Origin, and based off articles 
+This is just a hello world project (for solidity / ETH ecosystem) that is based off the following articles 
 - https://medium.com/@austin_48503/%EF%B8%8Fethereum-dev-speed-run-bd72bcba6a4c
 - https://medium.com/@austin_48503/%EF%B8%8F-minimum-viable-exchange-d84f30bd0c90
 
@@ -15,9 +15,12 @@ I used Remix as IDE, it had some flaws, but nice for someone trying to get into 
         - [ ] trufflesuite
         - [ ] hardhat
     - [ ] write tests for the contract
+
 - [ ] Fuzz the contract
     - [ ] https://github.com/crytic/echidna
+
 - [ ] Run automated static analysis
     - [x] https://github.com/crytic/slither
+
 - [ ] Complete the implementation.
 
