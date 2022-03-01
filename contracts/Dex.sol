@@ -2,10 +2,8 @@
 
 pragma solidity >=0.4.22 <0.9.0;
 
-//import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.5/contracts/token/ERC20/IERC20.sol";
-//import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.5/contracts/utils/math/SafeMath.sol";
-import "../node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "../node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 contract Dex {
     using SafeMath for uint256;
@@ -23,6 +21,7 @@ contract Dex {
         totalLiquidity = address(this).balance;
         liquidity[msg.sender] = totalLiquidity;
         require(token.transferFrom(msg.sender, address(this), tokens));
+
         return totalLiquidity;
     }
 
