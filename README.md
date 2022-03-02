@@ -16,12 +16,16 @@ I used Remix as IDE, it had some flaws, but nice for someone trying to get into 
         - [ ] trufflesuite
         - [x] hardhat
     - [^] write tests for the contract
+        - `npx hardhat test`
 
 - [ ] Fuzz the contract
     - [ ] https://github.com/crytic/echidna
 
 - [ ] Run automated static analysis
     - [x] https://github.com/crytic/slither
+
+- [ ] Test deployment to optimism
+    - [ ] https://community.optimism.io/docs/developers/build/using-tools/#hardhat
 
 - [ ] Complete the implementation.
 

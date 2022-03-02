@@ -1,9 +1,12 @@
-const { expect } = require("chai");
-const { ethers } = require("hardhat");
+//const { expect } = require("chai");
+//const { ethers } = require("hardhat");
+
+import { ethers } from "hardhat";
+import { expect } from "chai";
 
 describe("Dex", function () {
   it("Should be able to init a dex", async function () {
-    const BSCToken = await hre.ethers.getContractFactory("BasicToken");
+    const BSCToken = await ethers.getContractFactory("BasicToken");
     const token = await BSCToken.deploy('100');
 
     await token.deployed();
