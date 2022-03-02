@@ -27,6 +27,7 @@ This is just a hello world project (for solidity / ETH ecosystem) that is based 
     - [x] https://github.com/crytic/slither
 
 - [ ] Test deployment to optimism
+
     - [ ] https://community.optimism.io/docs/developers/build/using-tools/#hardhat
 
 - [ ] Complete the implementation.
